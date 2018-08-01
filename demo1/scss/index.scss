@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0
+}
+html,body,.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main{
+    height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #fff;
+    // position: absolute;
+    .map{
+        height: 100%;
+      
+        overflow: hidden;
+        position: relative;
+        left: 0;
+        .maptype-bare{
+            height: 30px;
+            width: 20px;
+            background-color: palevioletred;
+        }
+        .bg{
+            background-image: url(../images/mid_bgW1.png);
+            // background-color: red;
+            background-repeat: repeat-x;
+            background-size: 100% 100%;
+        }
+        .cao{
+            height: 60px;
+            width: 100%;
+
+            background-image: url(../images/mid_cao.png);
+            background-repeat: repeat-x;
+            background-size: auto 100%;
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+    .person{
+        background-image: url(../images/bulletPerson.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        width: 20px;
+    }
+}
+//@at-root
+.pause{
+    position: fixed;
+    top: 0;
+    right: 0;
+    line-height:50px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 12px;
+    color: white;
+    background-color: palevioletred;
+}
+// 
+.enemy{
+    color: white;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.maptype-1{
+    width: 32px;
+    height:  32px;
+    position: absolute;
+   background-image: url(../images/02.png);
+}
+.maptype-2{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url(../images/06.png);
+}
+.maptype-3{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url(../images/09.png);
+}
+
+.maptype-4{
+    width: 32px;
+    height:  32px;
+    position: absolute;
+    background-image: url(../images/19.png);
+}
+.maptype-5{
+    width: 32px;
+    height:  32px;
+    position: absolute;
+    background-image: url(../images/21.png);
+}
+.maptype-6{
+    width: 32px;
+    height:  32px;
+    position: absolute;
+    background-image: url(../images/17.png);
+}
